@@ -1,100 +1,56 @@
-# Template de Entrega
+# Artificial Neural Networks and Deep Learning - Portfolio
 
+**Author:** Felipe Maluli de Carvalho Dias  
+**Course:** Artificial Neural Networks and Deep Learning  
+**Institution:** Insper  
+**Edition:** 2025.2
 
-???+ info inline end "Edição"
+## Project Structure
 
-    2025.1
-
-
-## Grupo/Kit X
-
-1. João da Silva
-1. Pedro de Souza
-1. Maria Oliveira
-1. Grupo K
-    - João da Silva
-    - Pedro de Souza
-
-
-
-!!! tip "Instruções"
-
-    Vocês devem utilizar este template como um bloco de notas para registrar o que foi feito e o que falta fazer. Vocês devem adicionar as informações necessárias.
-    O template deve ser editado e atualizado a cada entrega, registrando assim a data de entrega e o que foi feito até o momento via Git.
+- **Data Exercise** - Data preparation and analysis
+- **Perceptron Exercise** - Single-layer perceptron implementation
+- **MLP Exercise** - Multi-layer perceptron implementation
+- **Metrics Exercise** - Machine learning evaluation metrics
 
 ## Entregas
 
-- [x] Roteiro 1 - Data 23/02/2025
-- [ ] Roteiro 2
-- [ ] Roteiro 3
-- [ ] Roteiro 4
-- [ ] Projeto
+- [x] **Data Exercise** - Data Preparation and Analysis
+- [ ] **Perceptron Exercise** - Single-Layer Perceptron Implementation  
+- [ ] **MLP Exercise** - Multi-Layer Perceptron Implementation
+- [ ] **Metrics Exercise** - Machine Learning Evaluation Metrics
 
-## Diagramas
+## Installation and Setup
 
-Use o [Mermaid](https://mermaid.js.org/intro/){:target='_blank'} para criar os diagramas de documentação.
+To run the exercises in this repository, follow these steps:
 
-[Mermaid Live Editor](https://mermaid.live/){:target='_blank'}
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/FeMCDias/Artificial-Neural-Networks-and-Deep-Learning.git
+   cd Artificial-Neural-Networks-and-Deep-Learning
+   ```
 
+2. **Create and activate a virtual environment:**
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
+   ```
 
-``` mermaid
-flowchart TD
-    Deployment:::orange -->|defines| ReplicaSet
-    ReplicaSet -->|manages| pod((Pod))
-    pod:::red -->|runs| Container
-    Deployment -->|scales| pod
-    Deployment -->|updates| pod
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-    Service:::orange -->|exposes| pod
+4. **View the documentation:**
+   ```bash
+   mkdocs serve
+   ```
 
-    subgraph  
-        ConfigMap:::orange
-        Secret:::orange
-    end
+5. **Deploy to GitHub Pages:**
+   ```bash
+   mkdocs gh-deploy
+   ```
 
-    ConfigMap --> Deployment
-    Secret --> Deployment
-    classDef red fill:#f55
-    classDef orange fill:#ffa500
-```
+## References
 
-
-
-## Códigos
-
-=== "De um arquivo remoto"
-
-    ``` { .yaml .copy .select linenums='1' title="main.yaml" }
-    --8<-- "https://raw.githubusercontent.com/hsandmann/documentation.template/refs/heads/main/.github/workflows/main.yaml"
-    ```
-
-=== "Anotações no código"
-
-    ``` { .yaml title="compose.yaml" }
-    name: app
-
-        db:
-            image: postgres:17
-            environment:
-                POSTGRES_DB: ${POSTGRES_DB:-projeto} # (1)!
-                POSTGRES_USER: ${POSTGRES_USER:-projeto}
-                POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-projeto}
-            ports:
-                - 5432:5432 #(2)!
-    ```
-
-    1.  Caso a variável de ambiente `POSTGRES_DB` não exista ou seja nula - não seja definida no arquivo `.env` - o valor padrão será `projeto`. Vide [documentação](https://docs.docker.com/reference/compose-file/interpolation/){target='_blank'}.
-
-    2. Aqui é feito um túnel da porta 5432 do container do banco de dados para a porta 5432 do host (no caso localhost). Em um ambiente de produção, essa porta não deve ser exposta, pois ninguém de fora do compose deveria acessar o banco de dados diretamente.
-
-
-## Exemplo de vídeo
-
-Lorem ipsum dolor sit amet
-
-<iframe width="100%" height="470" src="https://www.youtube.com/embed/3574AYQml8w" allowfullscreen></iframe>
-
-
-## Referências
-
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/){:target='_blank'}
+- [Neural Networks and Deep Learning - Michael Nielsen](http://neuralnetworksanddeeplearning.com/){:target='_blank'}
+- [Deep Learning Book - Ian Goodfellow](https://www.deeplearningbook.org/){:target='_blank'}

@@ -11,6 +11,7 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-render-swagger-plugin
 termynal
 matplotlib
+scikit-learn
 numpy
 pandas
 yfinance
