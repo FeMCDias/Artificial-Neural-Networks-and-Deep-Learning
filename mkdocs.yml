@@ -137,3 +137,6 @@ nav:
     - Data Exercise: 
       - Report: ./data-exercise/main.md
       - Code: ./data-exercise/solution_exercises.py
+    - Perceptron Exercise:
+      - Report: ./perceptron-exercise/main.md
+      - Code: ./perceptron-exercise/solution_exercises.py

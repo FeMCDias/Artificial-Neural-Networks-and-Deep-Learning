@@ -15,7 +15,7 @@
 ## Entregas
 
 - [x] **Data Exercise** - Data Preparation and Analysis
-- [ ] **Perceptron Exercise** - Single-Layer Perceptron Implementation  
+- [x] **Perceptron Exercise** - Single-Layer Perceptron Implementation  
 - [ ] **MLP Exercise** - Multi-Layer Perceptron Implementation
 - [ ] **Metrics Exercise** - Machine Learning Evaluation Metrics
 
