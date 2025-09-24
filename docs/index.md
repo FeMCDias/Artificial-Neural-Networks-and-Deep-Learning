@@ -16,7 +16,7 @@
 
 - [x] **Data Exercise** - Data Preparation and Analysis
 - [x] **Perceptron Exercise** - Single-Layer Perceptron Implementation  
-- [ ] **MLP Exercise** - Multi-Layer Perceptron Implementation
+- [x] **MLP Exercise** - Multi-Layer Perceptron Implementation
 - [ ] **Metrics Exercise** - Machine Learning Evaluation Metrics
 
 ## Installation and Setup

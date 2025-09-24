@@ -140,3 +140,6 @@ nav:
     - Perceptron Exercise:
       - Report: ./perceptron-exercise/main.md
       - Code: ./perceptron-exercise/solution_exercises.py
+    - MLP Exercise:
+      - Report: ./mlp-exercise/main.md
+      - Code: ./mlp-exercise/solution_exercises.py
