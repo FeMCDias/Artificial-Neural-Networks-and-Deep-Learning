@@ -143,3 +143,5 @@ nav:
     - MLP Exercise:
       - Report: ./mlp-exercise/main.md
       - Code: ./mlp-exercise/solution_exercises.py
+  - Classification Project:
+    - Project Portal: ./classification-project/main.md
