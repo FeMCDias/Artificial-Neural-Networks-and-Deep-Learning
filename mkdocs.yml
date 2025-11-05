@@ -143,5 +143,8 @@ nav:
     - MLP Exercise:
       - Report: ./mlp-exercise/main.md
       - Code: ./mlp-exercise/solution_exercises.py
+    - VAE Exercise:
+      - Report: ./vae_fashion_mnist_pytorch/main.md
+      - Code: ./vae_fashion_mnist_pytorch/solution_exercises.ipynb
   - Classification Project:
     - Project Portal: ./classification-project/main.md
